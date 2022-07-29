@@ -1,0 +1,25 @@
+.card {
+  @apply bg-white;
+  @apply select-none;
+  /* small screen */
+  @apply w-[103px];
+  @apply h-[141px];
+  @apply rounded-[10px];
+  @apply p-3;
+  /* medium screen and above  */
+  @apply md:w-[192px];
+  @apply md:h-[264px];
+  @apply md:rounded-[24px];
+  @apply md:p-4;
+}
+
+.largeIcon {
+  @apply w-12;
+  @apply md:w-24;
+  @apply float-right;
+}
+
+.smallIcon {
+  @apply w-4;
+  @apply md:w-9;
+}

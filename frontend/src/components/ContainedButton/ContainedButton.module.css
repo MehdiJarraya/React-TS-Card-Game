@@ -1,0 +1,12 @@
+.default {
+  @apply bg-primary;
+  @apply text-black;
+  @apply w-80;
+  @apply rounded-[14px];
+  @apply font-alfa-slab-one;
+  @apply text-[64px];
+  @apply text-center;
+  @apply uppercase;
+  @apply hover:bg-amber-200;
+  @apply select-none;
+}

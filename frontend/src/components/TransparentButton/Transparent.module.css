@@ -1,0 +1,10 @@
+.default {
+  @apply text-primary;
+  @apply border-primary;
+  @apply border-[3px];
+  @apply min-w-[131px];
+  @apply rounded-[14px];
+  @apply font-alfa-slab-one;
+  @apply text-[32px];
+  @apply px-6;
+}

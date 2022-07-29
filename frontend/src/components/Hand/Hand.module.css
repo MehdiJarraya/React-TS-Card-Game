@@ -1,0 +1,10 @@
+.default {
+  @apply flex;
+  @apply flex-wrap;
+  @apply justify-center;
+  /* small screen */
+  @apply gap-4;
+  /* medium screen and above  */
+  @apply md:gap-8;
+  @apply md:mt-20;
+}

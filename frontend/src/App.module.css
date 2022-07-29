@@ -1,0 +1,61 @@
+.root {
+  @apply text-center;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%), #0a863e;
+  @apply min-h-screen;
+}
+.page {
+  @apply container;
+  @apply grid;
+  @apply mx-auto;
+  /* small screen */
+  @apply py-8;
+  /* medium screen and above  */
+  @apply md:py-10;
+}
+
+.hand {
+  @apply mt-20;
+}
+
+.dataDisplayContainer {
+  @apply flex;
+  @apply justify-center;
+}
+
+.winnerBanner {
+  @apply -mt-10;
+  @apply mx-auto;
+}
+
+.winParticles {
+  @apply absolute;
+  @apply top-1/2;
+}
+
+.dealBtn {
+  @apply mt-16;
+  @apply mx-auto;
+}
+
+.resetBtn {
+  @apply mt-10;
+  @apply block;
+  @apply mx-auto;
+  @apply md:ml-auto;
+  @apply md:mr-0;
+}
+
+.playAgain {
+  @apply z-10;
+  @apply mt-16;
+  @apply mx-auto;
+}
+
+.youLooseText {
+  @apply text-white;
+  @apply font-courier-prime;
+  @apply text-base;
+  @apply font-normal;
+  @apply text-center;
+  @apply mt-20;
+}

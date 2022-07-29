@@ -1,0 +1,23 @@
+.default {
+  @apply bg-black;
+  @apply w-44;
+  @apply h-24;
+  @apply border;
+  @apply border-solid;
+  @apply border-primary;
+  /* center items */
+  @apply grid;
+  @apply place-content-center;
+  /* text styles */
+  @apply text-white;
+  @apply font-courier-prime;
+  @apply font-bold;
+}
+
+.value {
+  @apply text-5xl;
+}
+
+.label {
+  @apply text-lg;
+}

@@ -74,6 +74,7 @@ function App() {
 
   return (
     <main className={styles.root}>
+      HELLO
       <div className={styles.page}>
         <section aria-label="Cards and Aces left" className={styles.dataDisplayContainer}>
           <DataDisplay value={deckLength} label="Cards Left" />
